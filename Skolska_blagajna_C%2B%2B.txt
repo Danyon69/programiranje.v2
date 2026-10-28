@@ -1,18 +1,15 @@
-C++: ŠKOLSKA BLAGAJNA
 
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
-// Globalne konstante i globalne varijable
 const double CIJENA_ULAZNICE = 5.0;
 const int PRAG_POPUSTA = 5;
 const double STOPA_POPUSTA = 0.10;
 
 int ukupnoUlaznica = 0;
 double ukupniPrihod = 0.0;
-
-// Deklaracije funkcija
+a
 bool ispravanUnos(int kolicina);
 double izracunajIznos(int kolicina);
 void evidentirajKupnju(int kolicina, double iznos);
@@ -47,7 +44,6 @@ int main()
     return 0;
 }
 
-// Definicije funkcija
 bool ispravanUnos(int kolicina)
 {
     if (kolicina >= 1 && kolicina <= 30)
